@@ -98,7 +98,7 @@ to go
         [
           if kingOfSpades
           [
-            set numKingsFound numKingsFound + 1
+            set numKingsFound numKingsFound - 1
             hatch 1
             [
               set name "King"
